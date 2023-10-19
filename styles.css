@@ -256,6 +256,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    line-height: 1.42857143
 }
 
 footer a {
@@ -266,4 +267,10 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }
