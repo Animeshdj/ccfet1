@@ -1,0 +1,116 @@
+.navbar {
+    background-color: #FFC107;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.navbar .logo p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar .links {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.navbar .links a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+}
+
+
+.left-content {
+    flex: 1;
+    padding-right: 50px;
+}
+
+.left-content h1 {
+    font-size: 72px;
+    color: #5f27cd;
+
+    margin-bottom: 20px;
+}
+
+.left-content h2 {
+    font-size: 72px;
+    margin-bottom: 30px;
+}
+
+.left-content .highlight {
+    background-color: #5f27cd;
+
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.left-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+.right-content {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.right-content img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.graduates-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.graduates-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.companies {
+    display: flex;
+    gap: 50px;
+}
+
+.company-logo {
+    width: 50px;
+    height: 50px;
+}
