@@ -4,13 +4,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Navbar</title>
+    <style>
+        .navbar {
+            background-color: #FFC107;
+            padding: 10px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar .logo img {
+            width: 40px;
+            margin-right: 10px;
+        }
+
+        .navbar .logo p {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .navbar .links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .navbar .links a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .navbar .links a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>
-        I am text
-    </h1>
+    <div class="navbar">
+        <div class="logo">
+            <p>The App Brewery</p>
+        </div>
+        <div class="links">
+            <a href="#">More Courses</a>
+            <a href="#">Login</a>
+        </div>
+    </div>
 </body>
 
 </html>
